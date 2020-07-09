@@ -12,38 +12,62 @@
 
 
 duration - Duration of the trip in seconds
+
 started_at - Start date and time of trip
+
 ended_at - End date and time of trip
 
+
 start_id - Start station id if available
+
 end_id - End station id if available
+
 start_name - Name of start station if available
+
 end_name - Name of end station if available
 
+
 start_lat - Latitude at start of trip
+
 start_lng - Longitude at start of trip
+
 end_lat - Latitude at end of trip
+
 end_lng - Longitude at end of trip
+
 
 start_city - city that the ride started, based off of longitudinal differences
 
+
 distance - distance from start to end of trip in a straight line (in km)
+
 speed - average speed from start to end of the trip (in kph)
 
+
 user_type - Whether the user is a Member or Casual
+
 bsfa - If the rider is in the 'Bike Share for All' program
+
 user_class - separating out the BSFA subset of Members in user_type
 
+
 bike_id - Unique interger identifier of each bike,
+
 ride_type - Whether the bike was a docked or electric version
 
 rent_method - What method the user used to rent the bike (App or Clipper)
 
+
 start_date - started_at, but only the date
+
 start_year - started_at, but only the year
+
 start_hour - started_at, but the hour (0-23)
+
 start_dow - started_at, but only the day of week (0-6)
+
 start_yymm - started_at, but in year-month format (2020-04)
+
 start_month - started_at, but only the month
 
 dow - day of week in string form
