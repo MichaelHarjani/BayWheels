@@ -8,7 +8,7 @@
 
 ## Dataset
 
-> The data consits of 6,165,032 trips including start and end times and locations, the type of bike used, type of user, and other user and bike characteristics. While the dataset was in one of the given files, it has been altered several times as there was a change in format. The dataset can be found [here] (https://s3.amazonaws.com/baywheels-data/index.html) with some of the feature documentation available [here] (https://www.lyft.com/bikes/bay-wheels/system-data). As some have been renamed and altered, they are listed below.
+> The data consits of 6,331,056 trips including start and end times and locations, the type of bike used, type of user, and other user and bike characteristics. While the dataset was in one of the given files, it has been altered several times as there was a change in format. The dataset can be found [here] (https://s3.amazonaws.com/baywheels-data/index.html) with some of the feature documentation available [here] (https://www.lyft.com/bikes/bay-wheels/system-data). As some have been renamed and altered, they are listed below.
 
 
 duration - Duration of the trip in seconds
@@ -85,3 +85,6 @@ dow - day of week in string form
 > For the presentation I focused on the basic stats about the rides before diving deeper into the situations that seemed to warrant questions as to why they would appear that way. At the end, I used data from outside to possibly explain certain user behaviours. 
 
 
+
+### To make presentation into slides
+jupyter nbconvert presentation.ipynb --to slides --template output-toggle.tpl --post serve
